@@ -1,0 +1,62 @@
+.TodoList {
+    margin: 4rem auto;
+    padding: 2rem 3rem 3rem;
+    max-width: 600px;
+    background: linear-gradient(to right, rgb(55, 63, 100), rgb(83, 160, 231));
+    color: #fff;
+    box-shadow: -20px -20px 0px 0px rgba(151, 151, 151, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: opacity 0.4s linear;
+}
+
+.TodoList ul {
+    margin-top: 2.6rem;
+    list-style: none;
+    transition: opacity 0.4s linear;
+}
+
+.TodoList h1 {
+    font-weight: normal;
+    font-size: 2.6rem;
+    letter-spacing: 0.05em;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
+.TodoList h1 {
+    text-decoration: none;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+    color: #fff;
+    font-family: Monoton;
+    -webkit-animation: neon6 1.5s ease-in-out infinite alternate;
+    -moz-animation: neon6 1.5s ease-in-out infinite alternate;
+    animation: neon6 1.5s ease-in-out infinite alternate;
+}
+
+
+
+@-webkit-keyframes neon6 {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #70a1ec, 0 0 70px #70a1ec, 0 0 80px #70a1ec, 0 0 100px #70a1ec, 0 0 150px #70a1ec;
+    }
+
+    to {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #70a1ec, 0 0 35px #70a1ec, 0 0 40px #70a1ec, 0 0 50px #70a1ec, 0 0 75px #70a1ec;
+    }
+}
+
+
+/*glow*/
+
+@keyframes neon6 {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #70a1ec, 0 0 70px #70a1ec, 0 0 80px #70a1ec, 0 0 100px #70a1ec, 0 0 150px #70a1ec;
+    }
+
+    to {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #70a1ec, 0 0 35px #70a1ec, 0 0 40px #70a1ec, 0 0 50px #70a1ec, 0 0 75px #70a1ec;
+    }
+}
